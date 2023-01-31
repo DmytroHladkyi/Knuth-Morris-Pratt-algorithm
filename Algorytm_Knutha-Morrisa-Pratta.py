@@ -30,7 +30,7 @@ while i < n:
         i += 1
         j += 1
         if j == m:
-            print(f'Znaleziono słowo - "{t}" w tekście: "W czasie suszy szosa sucha."')
+            print(f'Znaleziono słowo - "{t}" w tekście: "{a}"')
             break
     else:
         if j > 0:
@@ -38,4 +38,4 @@ while i < n:
         else:
             i += 1
     if i == n:
-        print(f'Nie znaleziono słowo - "{t}" w tekście: "W czasie suszy szosa sucha."')
+        print(f'Nie znaleziono słowo - "{t}" w tekście: "{a}"')
