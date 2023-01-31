@@ -39,3 +39,4 @@ while i < n:
             i += 1
     if i == n:
         print(f'Nie znaleziono słowo - "{t}" w tekście: "W czasie suszy szosa sucha."')
+        break
